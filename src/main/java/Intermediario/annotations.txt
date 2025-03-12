@@ -1,0 +1,32 @@
+praticamente tudo no Java é um **objeto**
+e para haver este objeto, é necessário um "molde" deste objeto, que em OOP seria uma **classe.**
+
+praticamente TUDO é um objeto, literalmente TUDO.
+
+# Herança
+usar características de uma classe mãe  em outras classes filhas para poupar código duplicado
+
+# Polimorfismo
+criar uma função única que pode ser utilizada em diferentes classes com diferentes características
+
+# Encapsulamento
+defender nossas variáveis e classes  !!!! pilar mais complexo da OOP
+
+classe X interface
+
+a interface é como uma janela, você pode abrir, acessar e ir embora.
+
+uma interface não é possível criar um objeto dela... é só para você usar as coisas delas... a interface não é uma Classe que tem um molde...
+
+**"sempre de preferência para trabalhar com interfaces do que com classes"** - interfaces são maleáveis e classes são moldes
+
+
+## Classe Abstrata
+- Basicamente é uma maneira de você 'proteger' sua classe pois fazendo isso, torna-se impossível instanciar um objeto dessa classe;
+
+### Diferença entre Classe Abstrata X Interfaces -> Importante pois cai em entrevista de emprego :
+
+	Maior semelhança é -> Nenhuma das 2 consegue criar um OBJETO. Nem uma e nem outra consegue criar objeto!
+
+	Maior diferença é -> Toda vez que criamos uma interface, TODOS os métodos são OBRIGATORIAMENTE ABSTRATAOS
+	Outra diferença é toda vez que voce cria uma classe abstrata, todos seus atributos, variaveis podem ser setados depois, através por exemplo de um constructor. Já na INTERFACE, é necessário quando voce cria um parametro, já passar um valor pois em INTERFACES tudo é FINAL.
