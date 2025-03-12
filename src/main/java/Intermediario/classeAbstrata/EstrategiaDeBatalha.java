@@ -5,4 +5,7 @@ public interface EstrategiaDeBatalha {
      // Preciso instanciar ele obrigatoriamente em todo lugar que eu implementar essa interface
     void estrategiaDeBatalhaNinja();
 
+    void inteligenciaDeCombate();
+
+    void inteligenciaDeCombate(int qi);
 }

@@ -40,5 +40,12 @@ public class Main {
         kakashi.sharingan();
         kakashi.ninjaDeElite();
 
+        System.out.println("-------------------------------------------------------------------------------");
+
+        Uzumaki minato = new Uzumaki("minato", 15, "vila da folha", 5, Rank.HOKAGE);
+        minato.mostrarInformacoes();
+
+        minato.inteligenciaDeCombate();
+        minato.inteligenciaDeCombate(160);
     }
 }
