@@ -1,5 +1,7 @@
 package Intermediario.classeAbstrata;
 
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         Senju hashirama = new Senju();
@@ -9,12 +11,34 @@ public class Main {
         hashirama.sabedoriaHokage();
          // Senju tobirama = new Hokages(); - > Isso nunca pode acontecer pois essa classe é abstrata
 
+        System.out.println("-------------------------------------------------------------------------------");
+
+
         Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto";
         naruto.estrategiaDeBatalhaNinja();
 
+        System.out.println("-------------------------------------------------------------------------------");
 
         Uzumaki boruto = new Uzumaki("Boruto", 15, "Folha");
         boruto.mostrarInformacoes();
+
+        System.out.println("-------------------------------------------------------------------------------");
+
+        Uchiha sasuke = new Uchiha();
+        sasuke.nome = "Sasuke Uchiha";
+        sasuke.sharingan();
+
+        System.out.println("-------------------------------------------------------------------------------");
+
+        Hatake kakashi = new Hatake();
+        kakashi.nome = "Kakashi Hatake".toLowerCase();
+        kakashi.idade = 35;
+        kakashi.aldeia = "Folha";
+
+        kakashi.boasVindas();
+        kakashi.sharingan();
+        kakashi.ninjaDeElite();
+
     }
 }
