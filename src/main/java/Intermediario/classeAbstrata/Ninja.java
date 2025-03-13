@@ -47,4 +47,10 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         else
             System.out.println("Você precisa treinar mais, garoto!");
     }
+
+
+    @Override
+    public String toString() { // Estamos fazendo o override do método toString
+        return "Método to string para referencia de memória";
+    }
 }

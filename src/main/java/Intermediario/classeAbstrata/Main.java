@@ -17,6 +17,7 @@ public class Main {
         Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto";
         naruto.estrategiaDeBatalhaNinja();
+        System.out.println(naruto);
 
         System.out.println("-------------------------------------------------------------------------------");
 
@@ -47,5 +48,8 @@ public class Main {
 
         minato.inteligenciaDeCombate();
         minato.inteligenciaDeCombate(160);
+
+        System.out.println(minato);
+
     }
 }

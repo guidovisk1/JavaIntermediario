@@ -38,4 +38,5 @@ public class Uzumaki extends Ninja {
     public void inteligenciaDeCombate() {
         super.inteligenciaDeCombate();
     }
+
 }
