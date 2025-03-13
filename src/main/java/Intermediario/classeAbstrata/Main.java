@@ -53,5 +53,11 @@ public class Main {
         System.out.println(minato); // Quando eu faço isso aqui eu estou acessando a referência da minha memória e não necessariamente o valor que existe nela
         // Por isso existe o método to string em que eu posso dar um override no método padrão do java para retornar outra coisa
         // É recomendado que sempre em nossas classes haja um método toString() sobreposto ao normal!
+
+        System.out.println("-------------------------------------------------------------------------------");
+
+        Anbu ninja_anbu = new Anbu(); // Como é uma classe final, eu posso criar objetos dela mas não posso a extender em outras!
+        ninja_anbu.nome = "Aleatório";
+        ninja_anbu.idade = 15;
     }
 }
