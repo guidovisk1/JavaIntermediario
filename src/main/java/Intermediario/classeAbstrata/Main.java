@@ -48,7 +48,8 @@ public class Main {
 
         minato.inteligenciaDeCombate();
         minato.inteligenciaDeCombate(160);
-
+        System.out.println(minato.altura);
+        minato.metodoSomenteMae();
         System.out.println(minato); // Quando eu faço isso aqui eu estou acessando a referência da minha memória e não necessariamente o valor que existe nela
         // Por isso existe o método to string em que eu posso dar um override no método padrão do java para retornar outra coisa
         // É recomendado que sempre em nossas classes haja um método toString() sobreposto ao normal!
