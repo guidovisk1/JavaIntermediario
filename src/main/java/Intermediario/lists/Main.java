@@ -39,5 +39,8 @@ public class Main {
 
         // Tamanho da lista
         System.out.println(ninjasList.size());
+
+        // Acessando um índice inválido da lista -- Vai dar um erro por isso está comentado
+        //System.out.println(ninjasList.get(10));
     }
 }
