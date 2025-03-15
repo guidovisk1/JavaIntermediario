@@ -1,5 +1,8 @@
 package Intermediario.lists;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         // Array
@@ -14,5 +17,27 @@ public class Main {
         for(int i = 0; i < ninjasArray.length; i++)
             System.out.println(ninjasArray[i]);
 
+        //Listas
+        // Listas não são estaticas, elas podem aumentar e diminuir
+        List<String> ninjasList = new ArrayList<>();
+        ninjasList.add("Naruto Uzumaki");
+        ninjasList.add("Sasuke Uchiha");
+        ninjasList.add("Kiba");
+        ninjasList.add("Orochimaru");
+        ninjasList.add("Kisame");
+        ninjasList.add("Kakashi");
+
+        System.out.println(ninjasList.size()); // Pegar o tamamho da lista
+
+        System.out.println(ninjasList); // Lista com o Kakashi
+        ninjasList.remove("Kakashi");
+        System.out.println(ninjasList); // Lista sem o kakashi por conta do método remove
+
+        // Trocar elementos  - Naruto pelo Hashirama
+        ninjasList.set(0, "Hashirama");
+        System.out.println(ninjasList);
+
+        // Tamanho da lista
+        System.out.println(ninjasList.size());
     }
 }
