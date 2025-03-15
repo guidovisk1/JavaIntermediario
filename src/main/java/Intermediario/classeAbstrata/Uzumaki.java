@@ -2,11 +2,6 @@ package Intermediario.classeAbstrata;
 
 public class Uzumaki extends Ninja {
 
-    @Override
-    public void estrategiaDeBatalhaNinja() {
-        super.estrategiaDeBatalhaNinja();
-    }
-
     public Uzumaki(){
         super();
     }
