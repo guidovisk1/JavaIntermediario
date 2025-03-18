@@ -11,6 +11,5 @@ public class Main {
         bolsaGenerica.adicionarEquipamento(equipamentosNinja2);
         bolsaGenerica.adicionarEquipamento(equipamentosNinja3);
 
-        System.out.println(bolsaGenerica);
     }
 }
